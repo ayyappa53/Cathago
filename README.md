@@ -51,15 +51,17 @@ The project uses SQLite as the database.
 After user registration, manually update the approved field in the users table to 1 for the first admin.
 Admins can then manage users via the Admin Dashboard.
 
-##🎥 Demo Video
-📌 Watch the full demo video here: Click to Watch
+## 🎥 Demo Video
+📌 Watch the full demo video here: Clic
+
 
 ## 🏗️ Tech Stack
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js, Express.js
-Database: SQLite
-Storage: File system for document management
+## Frontend: HTML, CSS, JavaScript
+## Backend: Node.js, Express.js
+## Database: SQLite
+## Storage: File system for document management
 Authentication: bcrypt for password hashing
+
 ## 📩 Contact
 For any queries, reach out at:
 📧 Email: ayyappachowdarykandula@gmail.com
