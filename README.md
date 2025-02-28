@@ -51,9 +51,9 @@ The project uses SQLite as the database.
 After user registration, manually update the approved field in the users table to 1 for the first admin.
 Admins can then manage users via the Admin Dashboard.
 
+## 🎥 Demo Video  
+[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1YcRffP0EzcT-Ogu-jM6nB82wet66Xfpv/view?usp=sharing)
 
-### 🎥 Demo Video
-📌 Watch the full demo video here: Click to Watch
 
 
 ## 🏗️ Tech Stack
