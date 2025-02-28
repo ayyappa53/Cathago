@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <img class="header-logo" src="assets/logo.png" alt="Logo">
+        </header>
+
+        <div class="title">
+            Credit-Based Document Scanning System
+        </div>
+
+        <div class="main-content">
+            <img class="side-image" src="assets/sideimg.png" alt="Illustration">
+
+            <div class="login-container">
+                <div class="login-form">
+                    <h1 class="welcome-text">Welcome</h1>
+                    <div class="subtitle">Please enter your details to login</div>
+
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">User Email</label>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" id="password" name="password" required>
+                            <label for="password">Password</label>
+                            <span class="error-message" id="passwordError"></span>
+                        </div>
+
+                        <button type="submit" class="login-button">Login</button>
+
+                        <div class="links-container">
+                            <a href="#" id="resetPassword">Reset password</a>
+                            <a href="register.html">Register</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <span class="copyright">
+                    © 2025
+                    <a href="#">Cathago™</a>
+                    . All Rights Reserved.
+                </span>
+
+                <ul class="footer-links">
+                    <li>
+                        <a href="#" class="hover:underline">Contact @</a>
+                    </li>
+                    <li>
+                        <a href="#">ayyappachowdarykandula@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

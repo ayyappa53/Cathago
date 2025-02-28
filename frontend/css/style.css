@@ -1,0 +1,252 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Header styles */
+.header {
+    padding: 2rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    height: 3.5rem;
+}
+
+/* Main container styles */
+.container {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.25rem 0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+/* Login form styles */
+.side-image {
+    height: 20rem;
+    margin-top: 0.75rem;
+    max-width: 32rem;
+}
+
+.login-container {
+    margin-top: 2.5rem;
+    width: 100%;
+    max-width: 36rem;
+    position: relative;
+}
+
+.login-form {
+    padding: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+}
+
+.welcome-text {
+    font-size: 1.5rem;
+    color: #1a1a1a;
+}
+
+.subtitle {
+    opacity: 0.5;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.form-group {
+    position: relative;
+    margin-top: 3rem;
+}
+
+.form-group input {
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    border-bottom: 2px solid #d1d5db;
+    outline: none;
+    font-size: 1rem;
+    color: #1a1a1a;
+    transition: border-color 0.3s;
+}
+
+.form-group label {
+    position: absolute;
+    left: 0;
+    top: -0.875rem;
+    color: #4b5563;
+    font-size: 0.875rem;
+    transition: all 0.3s;
+}
+
+.form-group input:focus {
+    border-bottom-color: #000;
+}
+
+.form-group input:focus+label {
+    color: #000;
+}
+
+.login-button {
+    margin-top: 5rem;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.links-container {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.875rem;
+}
+
+.links-container a {
+    text-decoration: underline;
+    color: black;
+}
+
+/* Footer styles */
+.footer {
+    padding: 1rem;
+    background-color: black;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-logo {
+    height: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.copyright {
+    font-size: 0.875rem;
+    color: #6b7280;
+    text-align: center;
+}
+
+.copyright a {
+    margin-left: 0.25rem;
+    color: #6b7280;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-links a {
+    color: #6b7280;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.linkedin-icon {
+    height: 2.25rem;
+}
+
+/* Responsive styles */
+@media (min-width: 640px) {
+    .header-logo {
+        height: 4rem;
+    }
+
+    .title {
+        font-size: 2.25rem;
+    }
+
+    .side-image {
+        height: 24rem;
+    }
+
+    .login-container {
+        width: 75%;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 0;
+    }
+
+    .footer-links {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-logo {
+        height: 5rem;
+    }
+
+    .side-image {
+        height: 28rem;
+    }
+
+    .footer {
+        padding: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-content {
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .login-container {
+        width: 33.333333%;
+        margin-top: 0;
+    }
+}
