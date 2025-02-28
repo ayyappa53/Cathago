@@ -40,30 +40,26 @@ This project demonstrates expertise in **full-stack development**, **secure auth
 ### 1️⃣ Install Dependencies  
 ```sh
 npm install
-
-## 2️⃣ Start the Backend Server
+2️⃣ Start the Backend Server
+sh
+Copy
+Edit
 node server.js
-
-## 3️⃣ Run the Frontend
+3️⃣ Run the Frontend
 Open login.html in VS Code and use the Live Server extension to preview.
-
-
-## 🗄️ Database Setup (SQLite)
+🗄️ Database Setup (SQLite)
 The project uses SQLite as the database.
 After user registration, manually update the approved field in the users table to 1 for the first admin.
-Admins can then manage users via the Admin Dashboard
-
+Admins can then manage users via the Admin Dashboard.
 🎥 Demo Video
 📌 Watch the full demo video here: Click to Watch
 
-## 🏗️ Tech Stack
+🏗️ Tech Stack
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express.js
 Database: SQLite
 Storage: File system for document management
 Authentication: bcrypt for password hashing
-
-
 📩 Contact
 For any queries, reach out at:
 📧 Email: ayyappachowdarykandula@gmail.com
