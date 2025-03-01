@@ -52,7 +52,7 @@ After user registration, manually update the approved field in the users table t
 Admins can then manage users via the Admin Dashboard.
 
 ## 🎥 Demo Video  
-[![Watch the demo](![image](https://github.com/user-attachments/assets/c3b9141e-4523-4d4d-a5cd-dd075998b72f)
+[![Watch the demo](![image](https://github.com/user-attachments/assets/48847119-3ae5-465c-b110-3eb08f9ce4ac)
 )](https://drive.google.com/file/d/1YcRffP0EzcT-Ogu-jM6nB82wet66Xfpv/view?usp=sharing)
 
 
